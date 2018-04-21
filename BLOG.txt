@@ -1,0 +1,17 @@
+This project is the third project I completed for CS110. It is a computer vision-based assignment that focuses on editing a popular Playboy image named "Lena." 
+Most of the work for this project was based off of in class work with Benjamin Smith and the project shell that he created at https://github.com/benjaminsmithWVU/Assignment-3 .
+
+The ImageMods class that I made was created closely following in class work with him and then making changes as I figured things out. For example, how to dye a circle or how to add random color.
+This type of project is useful because Computer Vision and image analysis are tools with a plethora of applications. Images are a staple of the digital age and being able to work with them, recognize them, and code with them open the door to all sorts of industry. 
+
+Inside the code, I made 7 filters: Dank Zone, Picasso, Toasty, color swap, [REDACTED], Inverse, and MissingNo. 
+
+Inverse is a basic code that was gone over in class, but I made some changes to make the color a bit more harsh. It pretty much just takes the colors and inverts them - making white become black, etc.
+color swap is another basic one, I accidentally discovered it when I switched the arguments for a new pixel color. It replaces the rgb values with gbr ones instead, swapping the color values. It makes this image look particularly cool because of the feather in Lena's hair.
+Dank Zone is an homage to the due date of this project, 4/20, where I made everything green. 
+Toasty is a sweet filter that makes the warm colors warmer. This image has a lot of red so the effect is cool, especially because it leaves the feather in the hat the same.
+MissingNo is a glitch art reminiscent of pokemon red and blue's infamous missingno glitch that yielded a bugged out pokemon that was a block of random pixels. 
+Picasso is an artsy filter that uses a lot of math tricks to create shapes. It has geometry in the image shaded a certain color. 
+My personal favorite, REDACTED, is another artsy one that censor's Lena's face and then adds random spots of cyan and magenta. This one is cool because it is sort of future dystopia. 
+
+Overall this is a fun and useful project that works with an image to produce new, filtered images. 
